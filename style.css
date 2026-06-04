@@ -89,7 +89,6 @@ section h2{
     height: auto;
     object-fit: contain;
     border-radius: 10px;
-
     position: absolute;
     top: 20px;
     right: 20px;
@@ -167,6 +166,25 @@ footer{
     transform: translateY(-3px);
 }
 
+/* Estilos específicos para la página Sobre mí */
+
+.sobre-mi-contenido{
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.sobre-mi-contenido h2{
+    text-align: center;
+}
+
+.sobre-mi-contenido p{
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+/* Responsive */
+
 @media(max-width: 768px){
 
     header h1{
@@ -211,19 +229,7 @@ footer{
         min-height: auto;
     }
 
-    .sobre-mi-contenido {
-    max-width: 650px;
-    margin: 0 auto;
-    padding: 20px;
-    }
-    
-    .sobre-mi-contenido h2 {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    
-    .sobre-mi-contenido p {
-        text-align: justify;
-        line-height: 1.8;
+    .sobre-mi-contenido{
+        max-width: 100%;
     }
 }
