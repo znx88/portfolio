@@ -210,4 +210,20 @@ footer{
     .card{
         min-height: auto;
     }
+
+    .sobre-mi-contenido {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    
+    .sobre-mi-contenido h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .sobre-mi-contenido p {
+        text-align: justify;
+        line-height: 1.8;
+    }
 }
